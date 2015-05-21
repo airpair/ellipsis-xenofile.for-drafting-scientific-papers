@@ -2,6 +2,34 @@
 https://github.com/jlettvin/Ellipsis)
 <hr/>
 
+## Abstract
+Economical markdown and rapid rendering aids rapid turnaround in drafting
+which is more about expressing and organizing ideas than aesthetics.
+Figures, graphs, charts, tables, listings, equations, references, and more
+are numbered, labelled, positioned, and referenced easily.
+Directory structure mimics paper sections and subsections.
+
+...Contents files identify delivered sections.
+__Service__ modules use externally defined languages to render.
+Each of the following (and more) may be used as a ``` `service` ```.
+* __equation__
+* __listing__
+* __figure__
+* __graphviz__
+* __gnuplot__
+
+Markdown uses a lightweight syntax for minimum impact on drafting.
+For example: ``` `equation.gauss|The Gaussian|a e^{\frac{b x^2}{c^2}}` ```
+will cause the equation to be rendered by MathJax and displayed and
+``` `equation.gauss` ``` will make a standard reference to the equation.
+* __SYNTAX__
+* ``` `service.id|label|code` ``` Defines and renders an object;
+* ``` `service.id` ``` Refers to an object
+* ``` `service?notes` ``` Positions a reminder (post-it) note for later action
+* ``` `service?` ``` Positions a "how-to" help note directly inline
+* ``` `service` ``` Shows the current defaults for the service
+
+## Introduction
 <table><tr><td><big><b>
 Sometimes you just want to write a quick draft of a scientific paper,
 </b></big></td></tr></table>
