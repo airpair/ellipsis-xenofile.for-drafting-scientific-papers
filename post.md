@@ -10,7 +10,8 @@ are numbered, labelled, positioned, and referenced easily.
 Directory structure mimics paper sections and subsections.
 
 ...Contents files identify delivered sections.
-__Service__ modules use externally defined languages to render.
+__Service__ modules use externally defined languages used to render
+number and label objects to be placed in the draft.
 Each of the following (and more) may be used as a ``` `service` ```.
 * __equation__
 * __listing__
